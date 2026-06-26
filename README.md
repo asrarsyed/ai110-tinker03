@@ -65,3 +65,10 @@ During this lab you will:
 - When debugging, print tokens, scores, or intermediate choices.
 - Ask an AI assistant to help create edge case posts or unusual wording.
 - Try examples that mislead or confuse your model. Failure cases teach you the most.
+
+---
+
+## Demo
+
+![alt text](assets/ruleBased.png)
+![alt text](assets/mlModel.png)

@@ -23,6 +23,11 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "proud",
+    "sleep",
+    "smiling",
+    "hopeful",
+    "laughed",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +41,14 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "annoyed",
+    "pain",
+    "died",
+    "dead",
+    "scared",
+    "worried",
+    "nervous",
+    "disappointed",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +63,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey proud I finished my project, no cap :)",
+    "Highkey annoyed my bus left early again 💀",
+    "I absolutely love getting stuck in traffic for an hour 😂",
+    "Meh, just another Tuesday.",
+    "Got the internship but now I'm scared I'll mess it up 🥲",
+    "This coffee is fine, not amazing and not awful.",
+    "No cap, that concert was amazing and I can't stop smiling",
+    "I laughed through the pain today :(",
+    "Awesome, my laptop died right before the deadline.",
+    "Finally got some sleep and I feel great",
 ]
 
 # Human labels for each post above.
@@ -65,6 +88,16 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "Lowkey proud I finished my project, no cap :)"
+    "negative",  # "Highkey annoyed my bus left early again 💀"
+    "negative",  # "I absolutely love getting stuck in traffic for an hour 😂"
+    "neutral",   # "Meh, just another Tuesday."
+    "mixed",     # "Got the internship but now I'm scared I'll mess it up 🥲"
+    "neutral",   # "This coffee is fine, not amazing and not awful."
+    "positive",  # "No cap, that concert was amazing and I can't stop smiling"
+    "mixed",     # "I laughed through the pain today :("
+    "negative",  # "Awesome, my laptop died right before the deadline."
+    "positive",  # "Finally got some sleep and I feel great"
 ]
 
 # TODO: Add 5-10 more posts and labels.
